@@ -21,7 +21,6 @@ fun App() {
     ) {
         LazyVerticalGrid(
             modifier = Modifier.fillMaxSize()
-                .requiredWidthIn(min = 100.dp, max = 600.dp)
                 .wrapContentWidth(Alignment.CenterHorizontally),
             columns = GridCells.Adaptive(minSize = 100.dp),
             horizontalArrangement = Arrangement.spacedBy(16.dp),
