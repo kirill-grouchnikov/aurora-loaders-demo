@@ -69,6 +69,14 @@ fun App() {
                 }
             }
             item {
+                SpinnerItem("Chevrons") {
+                    Chevrons(
+                        modifier = Modifier.size(24.dp),
+                        color = color
+                    )
+                }
+            }
+            item {
                 SpinnerItem("CircularDots") {
                     CircularDots(
                         modifier = Modifier.size(
@@ -134,6 +142,14 @@ fun App() {
                 }
             }
             item {
+                SpinnerItem("Fill") {
+                    Fill(
+                        modifier = Modifier.size(24.dp),
+                        color = color
+                    )
+                }
+            }
+            item {
                 SpinnerItem("Flip") {
                     Flip(
                         modifier = Modifier.size(24.dp),
@@ -174,6 +190,14 @@ fun App() {
                 }
             }
             item {
+                SpinnerItem("Loop") {
+                    Loop(
+                        modifier = Modifier.size(24.dp),
+                        color = color
+                    )
+                }
+            }
+            item {
                 SpinnerItem("Morph") {
                     Morph(
                         modifier = Modifier.size(24.dp),
@@ -184,6 +208,14 @@ fun App() {
             item {
                 SpinnerItem("Orbit") {
                     Orbit(
+                        modifier = Modifier.size(24.dp),
+                        color = color
+                    )
+                }
+            }
+            item {
+                SpinnerItem("Phases") {
+                    Phases(
                         modifier = Modifier.size(24.dp),
                         color = color
                     )
@@ -222,6 +254,14 @@ fun App() {
                 }
             }
             item {
+                SpinnerItem("Scan") {
+                    Scan(
+                        modifier = Modifier.size(24.dp),
+                        color = color
+                    )
+                }
+            }
+            item {
                 SpinnerItem("Slide") {
                     Slide(
                         modifier = Modifier.size(24.dp),
@@ -232,6 +272,22 @@ fun App() {
             item {
                 SpinnerItem("Snake") {
                     Snake(
+                        modifier = Modifier.size(24.dp),
+                        color = color
+                    )
+                }
+            }
+            item {
+                SpinnerItem("Split") {
+                    Split(
+                        modifier = Modifier.size(24.dp),
+                        color = color
+                    )
+                }
+            }
+            item {
+                SpinnerItem("Steps") {
+                    Steps(
                         modifier = Modifier.size(24.dp),
                         color = color
                     )
